@@ -7,6 +7,8 @@
   <body>
 
     <section id="screen1">
+    
+      <span id="hidden"><br></span>
       
       <div id="title">
         <h1>Social Hackathon</h1>
@@ -17,15 +19,26 @@
         <h3> Come, let us innovate society and help make the world a better place </h3>
       </div>
       
+      <span id="hidden"><br></span>
+      
       <a id="register" href="#">Register Now !</a>
       
+      <span id="hidden"><br></span>
+      
       <a id="moredetails" href="#screen2">More Details<br><p id="smallarrow">&#11015;</p></a>
-
+      
+      <span id="hidden"><br></span>
 
     </section>
-    
+    <span id="hidden"><br></span>
     <section id="screen2">
     
+      <span id="hidden"><br></span>
+   
+      <a id="moredetails" href="#screen1"><p id="smallarrow">&#11014;</p>Home</a>
+            
+      <span id="hidden"><br></span>
+      
       <div id="themes">
        
         <div class="themebox">
@@ -66,11 +79,22 @@
       
       </div>
     
+      <a id="moredetails" href="#screen2">More Details<br><p id="smallarrow">&#11015;</p></a>
+      
+      <span id="hidden"><br></span>
+    
     </section>
 
 
         <style>
-
+           
+          html
+          {
+            
+            overflow:hidden;
+            
+          }
+          
           #screen1, #screen2
           {
 
@@ -79,7 +103,7 @@
             display:flex;
             align-items:center;
             flex-direction:column;
-            justify-content:center;
+            justify-content:space-between;
             overflow-x:hidden;
             font-family: 'Cairo', sans-serif;
             text-align:center;
@@ -104,7 +128,6 @@
             padding:0.6em 1.2em;
             border:2px #222 solid;
             border-right:6px solid #222;
-            margin-top:3em;
             transition:all 2s linear;
           
           }
@@ -148,8 +171,9 @@
             
             border:2px solid #222;
             width:20vh;
-            margin-left:2em;
-            margin-right:2em;
+            margin-left:1em;
+            margin-right:1em;
+            padding:1em;
           
           }
                     
