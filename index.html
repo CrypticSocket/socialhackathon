@@ -7,7 +7,6 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1, user-scalable=no">
         <link rel="stylesheet" href="css/bare.min.css">
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/office-code-pro" type="text/css"/>
-        <!-- <link rel="stylesheet" href="css/fontfix.css"> -->
     </head>
     
 
@@ -50,31 +49,31 @@
             <h2>Themes</h2>
             <grid id="gridid">
                 
-                <div xx col="1/5">
+                <div fx col="1/5">
                     <a href="#first">
                     <p id="theme">Rural<br>Development</p>
                     </a>
                 </div>
                 
-                <div xx col="1/5">
+                <div fx col="1/5">
                     <a href="#second">
                     <p id="theme">Clean Energy<br>And Transport</p>
                     </a>
                 </div>
                 
-                <div xx col="1/5">
+                <div fx col="1/5">
                     <a href="#third">
                     <p id="theme">Industrial<br>Innovation</p>
                   </a> 
                 </div>
                 
-                <div xx col="1/5">
+                <div fx col="1/5">
                     <a href="#fourth">
                     <p id="theme">Education And<br>Healthcare</p>
                     </a>
                 </div>
                 
-                <div xx col="1/5">
+                <div fx col="1/5">
                     <a href="#fifth">
                     <p id="theme">Self Sustained<br>Communities</p>
                     </a>
@@ -172,54 +171,7 @@ Sustainable consumption and production aims at “doing more and better with les
                 padding-top: 0px;
                 color:#fff;
             }
-
-            #About{
-                padding-bottom: 5vh; padding-top:5vh; background-color:#1e1e1e
-            }
-            
-            #themedetails card{
-            
-                background-color:#111 !important;
-                color:#eee !important;
-                text-align:center !important;
-                font-size:1.8em !important;
-                padding:1em !important;
-            
-            }
-            
-            #themedetails card{
-                                    margin:1rem;
-                                    padding:3em !important;
-                                    font-size:1.3em !important;
-                                }
-            
-            
-            
-            #gridid div{
-            
-                background-color:#111 !important;
-                color:#ddd !important;
-                margin-bottom:2em !important;
-                margin-left:0.4em !important;
-                
-            }
-
-            #gridid div a p
-            {
-            
-                font-size:1.5em;
-            
-            }
-            
-            #themedetails card h3 {
-            
-                padding-bottom:1em;
-                font-weight:bold;
-                
-            
-            }           
-
-            
+               
             .banner{
                 background-color: #1c1c1c;
                 padding-top: 0vh; 
@@ -228,14 +180,7 @@ Sustainable consumption and production aims at “doing more and better with les
                 color: white;
             }
             
-            .fontsize1{
-                font-size: 3.2rem;
-            }
-            
-            .fontsize2{
-                font-size: 2.2rem;
-            }
-
+/*
             .img_bg{
                 position: absolute;
                 left: 0;
@@ -245,103 +190,82 @@ Sustainable consumption and production aims at “doing more and better with les
                 filter: grayscale(100%) blur(3px) brightness(60%);
             }
             
+            nav ul li a{
+            
+                font-size:1.25em;
+                
+            }
+            
+            nav ul li a:hover{
+                
+                color:#6f6 !important;
+                border-color:#6f6 !important;
+            
+            }
+            
+            nav ul{
+            
+                text-align:center !important;
+                background-color:#111 !important; 
+            
+            }
+*/
+
+            #About{
+                padding-bottom: 5vh; padding-top:5vh; background-color:#1e1e1e
+            }
+            
+            #themedetails card{
+            
+                background-color:#111 !important;
+                color:#eee;
+                text-align:center;
+                margin:1rem;
+                padding:3rem;
+                font-size:1.5rem;
+            
+            }
+            
+            #themedetails card h3 {
+                padding-bottom:1em;
+                font-weight:bold;
+            }
+            
+            
+            #gridid div{
+            
+                background-color:#111;
+                color:#ddd;
+                margin-bottom:2em ;
+                margin-left:0.4em;
+                transition-duration: 0.5s;
+            }
+            
+            #gridid div:hover{
+                background-color: #333;
+            }
+
+            #gridid div a p
+            {
+                font-size:1.8rem;
+            }
+            
             .logo{
                 height:40rem;
                 width: auto;
                 filter:hue-rotate(-18deg);
             }
 
-            [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
+            #regbut{
                 background-color: #6a45a1;
-                font-size:2em; 
-                padding:0.5em 0.7em;
+                font-size:2rem; 
                 border: 0px;
-                padding-top: 1em;
-                padding-bottom: 1em;
-                padding-right: 0.75em;
                 font-family: 'OfficeCodeProDRegular';
                 color: #222;
             }
             
             #regbut:hover{
-                background-color: #4b4;
-            }
-            
-            .link:hover{
-                background-color: white;
-            }
-
-            .sec_class{
-                text-align: center;
-                color: black;
-                padding-top: 5vh;
-                padding-bottom: 5vh;
-            }
-
-            grid {
-                display: block;
-                font-size: 0;
-                width: auto;
-                margin: 1rem;
-            }
-
-            .gridclass h4{
-                color: lightgray;
-            }
-
-            .gridclass h5{
-                color: gray;
-            }
-
-            .nonempty {
-
-                background-color:#111;
-                color:#fff;
-                padding-top:1em;
-
-            }
-
-            .left {
-
-                border-right:1px solid;
-
-            }
-
-            .right {
-
-                border-left:1px solid;
-
-            }
-
-            .day1 {
-
-                border-color:#4d6;
-
-            }
-
-            .day1 h5{
-
-                color:#4d6;
-
-            }
-
-            .day2 {
-
-                border-color:#84c;
-
-            }
-
-            .day2 h5{
-
-                color:#84c;
-
-            }
-
-
-            .pic-title{
-                background-color:#111;
-                border-top:4px solid #c84;
-                color:white;
+                background-color: #65C;
             }
 
             .footer{
@@ -352,12 +276,6 @@ Sustainable consumption and production aims at “doing more and better with les
             .footerimg{
                 width: 5rem;
                 height: 5rem;
-            }
-
-            [btn][primary]:hover, button:not([class])[primary]:hover, button[xx][primary]:hover, input[type=submit][primary]:hover{
-
-                background-color:#191; 
-
             }
             
             .footer grid{
@@ -401,50 +319,9 @@ Sustainable consumption and production aims at “doing more and better with les
             
                 text-decoration:underline;
             
-            }
-
-            button:hover{
+            }        
             
-                background-color:#6f6 !important;
-            
-            }
-            
-            nav ul li a{
-            
-                font-size:1.25em;
-                
-            }
-            
-            nav ul li a:hover{
-                
-                color:#6f6 !important;
-                border-color:#6f6 !important;
-            
-            }
-            
-            nav ul{
-            
-                text-align:center !important;
-                background-color:#111 !important; 
-            
-            }
-            
-            .flex{
-                display:flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content:center;
-                align-items: stretch;
-                align-content: center;
-            }
-            
-            .video{
-                
-                width:800px;
-            
-            }         
-            
-/*            FAQ CSS*/
+/*            FAQ CSS
             #wrap-collabsible {
                 margin-bottom: 0;
                 padding-bottom:0.75em;
@@ -515,74 +392,10 @@ Sustainable consumption and production aims at “doing more and better with les
               padding: .5rem 1rem;
               font-size:1.5rem;
             }
-/*            FAQ CSS ENDS*/
+            FAQ CSS ENDS*/
 
             @media (max-width: 50rem)
             {   
-                .nonempty {
-                    margin: 1rem;
-                    padding: 1rem;
-                    width: 100%;
-                    border-left: 3px solid;
-                    border-right: 0px;
-                }
-
-                .left .right{
-
-                    border:0px solid;
-
-                }
-
-                .day1 {
-
-                    border-color:#4a6;
-
-                }
-
-                .day2{
-
-                    border-color:#84c
-
-                }
-
-                .empty {
-                    margin: 0rem;
-                    padding: 0rem;
-                    width: 100%;
-                }
-                
-                .logo{
-                    width: 75vw;
-                    height: auto;
-                }
-                
-                .fontsize1{
-                    font-size: 2.5rem;
-                }
-                .fontsize2{
-                    font-size: 2rem;
-                }
-                
-                .banner * {
-                    padding-top:1.5rem !important;
-                    padding-bottom:1.5rem !important; 
-                    margin:0 !important;  
-                }
-                
-                nav:not([class]), nav[xx] {
-                    position: fixed;
-                    padding: 0;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    visibility: hidden;
-                }
-                
-                .video{
-                
-                    width:80%;
-                
-                }
                 
             }
             
