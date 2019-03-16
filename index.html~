@@ -264,7 +264,6 @@ Sustainable consumption and production aims at “doing more and better with les
                 margin-bottom:2em ;
                 transition-duration: 0.5s;
                 margin-left:1em;
-                border-bottom:3px solid #6a45a1;
             }
             
             #gridid div:hover{
