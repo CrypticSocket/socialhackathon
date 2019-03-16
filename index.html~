@@ -253,6 +253,7 @@ Sustainable consumption and production aims at “doing more and better with les
             
             #themedetails card h3 {
                 padding-bottom:1em;
+                padding-top:1em;
                 font-weight:bold;
             }
             
@@ -264,10 +265,11 @@ Sustainable consumption and production aims at “doing more and better with les
                 margin-bottom:2em ;
                 transition-duration: 0.5s;
                 margin-left:1em;
+                border-bottom:3px solid #6a45a1;
             }
             
             #gridid div:hover{
-                background-color: #333;
+                color: #6a45a1;
             }
 
             #gridid div a p
