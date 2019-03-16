@@ -26,7 +26,7 @@
         </section>
         
         
-        <!-- NAV --
+        <!-- NAV 
         
         <nav style="background-color:#111; color:#4d6; border-bottom:0px; text-align:center; font-size:2.5em;">
             <label>
@@ -45,43 +45,45 @@
         </nav>
         -->
         
-        <section id="About" txt = "c" class="gridclass">
-            <h4>Themes</h4>
+<!--        <section id="About" txt = "c" class="gridclass">-->
+        <div txt="c">
+            <h2>Themes</h2>
             <grid id="gridid">
                 
-                <div xx col=1/3>
+                <div xx col="1/5">
                     <a href="#first">
-                    <p id="theme">Rural Development</p>
+                    <p id="theme">Rural<br>Development</p>
                     </a>
                 </div>
                 
-                <div xx col=1/3>
+                <div xx col="1/5">
                     <a href="#second">
-                    <p id="theme">Innovation in Clean Energy And Transport</p>
+                    <p id="theme">Clean Energy<br>And Transport</p>
                     </a>
                 </div>
                 
-                <div xx col=1/3>
+                <div xx col="1/5">
                     <a href="#third">
-                    <p id="theme">Industrial Innovation For Responsible<br> Consumption And Production</p>
-                    </a>
+                    <p id="theme">Industrial<br>Innovation</p>
+                  </a> 
                 </div>
                 
-                <div xx col=1/3>
+                <div xx col="1/5">
                     <a href="#fourth">
-                    <p id="theme">Education And Healthcare</p>
+                    <p id="theme">Education And<br>Healthcare</p>
                     </a>
                 </div>
                 
-                <div xx col=1/3>
+                <div xx col="1/5">
                     <a href="#fifth">
-                    <p id="theme">Self Sustained Communities</p>
+                    <p id="theme">Self Sustained<br>Communities</p>
                     </a>
                 </div>
             
             </grid>
                 
-        </section>
+<!--        </section>-->
+        </div>
         
         <section id="themedetails">
         
@@ -112,7 +114,7 @@ Sustainable consumption and production aims at “doing more and better with les
             <card id="fourth">
                 <h3>Education And Healthcare</h3>
                 
-Education and healthcare are the backbone of any developing country.</p><p>Considering the fact that our country has one of the highest rate of infant mortality and the fact that still a large part of the population is still not educated enough raises many questions.</p><p>Why is it so?</p><p>Can this be changed?</p><p>How can this be changed?</p><p>What are the challenges?..... And so on.</p><p>And as engineers who's better than us in solving critical problems.</p><p>Engineers might not be the first guy that comes to a person's mind when you talk about healthcare, but we've been developing medicines and surgical equipment for medical purposes since the beginning.</p><p>It's time to up the game and come up with innovative ideas to improve the healthcare and education system of the country.</p><p>Because remember if we can't, no one can.</p>
+<p>Education and healthcare are the backbone of any developing country.</p><p>Considering the fact that our country has one of the highest rate of infant mortality and the fact that still a large part of the population is still not educated enough raises many questions.</p><p>Why is it so?</p><p>Can this be changed?</p><p>How can this be changed?</p><p>What are the challenges?..... And so on.</p><p>And as engineers who's better than us in solving critical problems.</p><p>Engineers might not be the first guy that comes to a person's mind when you talk about healthcare, but we've been developing medicines and surgical equipment for medical purposes since the beginning.</p><p>It's time to up the game and come up with innovative ideas to improve the healthcare and education system of the country.</p><p>Because remember if we can't, no one can.</p>
             </card>
             
             </section>
@@ -134,7 +136,7 @@ Education and healthcare are the backbone of any developing country.</p><p>Consi
                     <h4><strong>CMR Institute of Technology</strong></h4>
                     <p>132, AECS Layout, ITPL Main Road<br>
                         Kundalahalli, Bangalore 560037, India<br>
-                        <strong>Sid - </strong><br>
+                        <strong>Sid - +91 85217 90637</strong><br>
                         <strong><a href="mailto:cmritsocialhackathon@gmail.com" target="_blank">cmritsocialhackathon@gmail.com</a></strong>
                     </p>
                     
@@ -154,10 +156,7 @@ Education and healthcare are the backbone of any developing country.</p><p>Consi
                             <a href="" target="_blank"><img src="./img/ig.png" class="footerimg"></a>
                         </div>
                         <div fx col="1/3">   
-                            <a href="" target="_blank"><img src="./img/foot1.png" class="footerimg"></a>
-                        </div>
-                        <div fx col="1/3">   
-                            <a href="" target="_blank"><img src="./img/foot2.png" class="footerimg"></a>
+                            <a href="https://www.facebook.com/SocialHackathonCMRIT" target="_blank"><img src="./img/foot2.png" class="footerimg"></a>
                         </div>
                     </grid>
                 </div>
@@ -192,7 +191,8 @@ Education and healthcare are the backbone of any developing country.</p><p>Consi
             
             #themedetails card{
                                     margin:1rem;
-                                    padding:1rem;
+                                    padding:3em !important;
+                                    font-size:1.3em !important;
                                 }
             
             
@@ -201,10 +201,27 @@ Education and healthcare are the backbone of any developing country.</p><p>Consi
             
                 background-color:#111 !important;
                 color:#ddd !important;
-                margin:1em !important;
-                font-size:3rem;
+                margin-bottom:2em !important;
+                margin-left:0.4em !important;
+                
             
             }
+
+            #gridid div a p
+            {
+            
+                font-size:1.5em;
+            
+            }
+            
+            #themedetails card h3 {
+            
+                padding-bottom:1em;
+                font-weight:bold;
+                
+            
+            }
+
             
 
             
@@ -236,10 +253,11 @@ Education and healthcare are the backbone of any developing country.</p><p>Consi
             .logo{
                 height:40rem;
                 width: auto;
+                filter:hue-rotate(-18deg);
             }
 
             [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
-                background-color: #ffc700;
+                background-color: #6a45a1;
                 font-size:2em; 
                 padding:0.5em 0.7em;
                 border: 0px;
@@ -247,7 +265,7 @@ Education and healthcare are the backbone of any developing country.</p><p>Consi
                 padding-bottom: 1em;
                 padding-right: 0.75em;
                 font-family: 'OfficeCodeProDRegular';
-                color: black;
+                color: #222;
             }
             
             #regbut:hover{
