@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/bare.min.css">
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/office-code-pro" type="text/css"/>
     </head>
-
+    
 
     <body data-gr-c-s-loaded="true">
         <section id="Register" class="banner">
@@ -23,10 +23,10 @@
                 <a href="http://imojo.in/hackiton" target="blank_"><button round primary id="regbut">Register Now</button></a><br>
             </section>
         </section>
-        <canvas id="nokey" width="100vw" height="100vh"></canvas>
-
-        <!-- NAV
-
+        
+        
+        <!-- NAV 
+        
         <nav style="background-color:#111; color:#4d6; border-bottom:0px; text-align:center; font-size:2.5em;">
             <label>
                 <input type="checkbox">
@@ -43,88 +43,88 @@
             </label>
         </nav>
         -->
-
+        
 <!--        <section id="About" txt = "c" class="gridclass">-->
         <div txt="c">
             <h2 id="themeheading">Themes</h2>
             <grid id="gridid">
-
+                
                 <div fx col="1/5">
                     <a href="#first">
                     <p id="theme">Rural<br>Development</p>
                     </a>
                 </div>
-
+                
                 <div fx col="1/5">
                     <a href="#second">
                     <p id="theme">Clean Energy<br>And Transport</p>
                     </a>
                 </div>
-
+                
                 <div fx col="1/5">
                     <a href="#third">
                     <p id="theme">Industrial<br>Innovation</p>
-                  </a>
+                  </a> 
                 </div>
-
+                
                 <div fx col="1/5">
                     <a href="#fourth">
                     <p id="theme">Education And<br>Healthcare</p>
                     </a>
                 </div>
-
+                
                 <div fx col="1/5">
                     <a href="#fifth">
                     <p id="theme">Self Sustained<br>Communities</p>
                     </a>
                 </div>
-
+            
             </grid>
         </div>
-
+        
         <section id="themedetails">
-
+        
             <card id="first">
                 <h3>Rural Development</h3>
                 <p>In India, out of total population of 1.3 billion, over 800 million live in rural areas. Thus, nearly 70 % of India’s population lives in rural areas.</p><p>Yes, rural India is “media dark,” lacks proper infrastructure and healthcare. But contrary to popular belief rural India is not lagging behind in technology adoption. TRAI report states ~ 200 Million [17% of 950 Million] people from rural India as opposed to ~ 275 Million [60% of 450 Million] from urban India use the Internet on their mobile devices.</p><p>It’s time that we focus on Technology Solutions that can ENHANCE life in rural India by diffusing critical problems they face.WE, don’t lack talent, we don’t lack ideas but we lack initiative, let’s move ahead from REFLECTION TO ACTION.</p>
             </card>
             </section>
             <section id="themedetails">
-
+            
             <card id="second">
                 <h3>Innovation in Clean Energy And Transport</h3>
                 <p>Smart energy is evolving rapidly. New energy technologies such as solar panels, batteries, electric vehicles and over-the-internet metering and control systems are rapidly becoming cheaper and more reliable.</p><p>Advancing technologies and shifting norms are enabling communities to take control of their own energy supply and usage. Communities can initiate, develop, operate and benefit from a renewable energy</p><p>Want to help decarbonise our energy systems? Or is your fight "the war on waste"? Bioenergy may be the magic weapon to both. Bioenergy is the world's primary source of renewable energy and yet there are millions of opportunities lying around to be harnessed.</p><p>Waste should be harnessed to create energy, not buried. Ideas like these ignite the imaginations of Engineers dreaming about reducing the impact of our waste, and of creating a circular economy.</p><p>Also when we're talking about a good economy we'll know that a good economy goes  hand in hand with good transport facilities. We need to develop new and efficient ways of transportation which will save time, money and effort.</p><p>So, come and join hands and take our first step towards a clean energy society.</p>
             </card>
             </section>
             <section id="themedetails">
-
+            
             <card id="third">
                 <h3>Industrial Innovation For Responsible Consumption And Production</h3>
                 <p>Our planet is under massive strain. Should the global population push the figure of 9.6 billion by 2050, we will need three Earths to sustain current lifestyles for everyone. Each year, an estimated one-third of all food produced – equivalent to 1.3 billion tonnes worth around USD 1 trillion – ends up rotting in the bins of consumers and retailers, or spoiling due to poor transportation and harvesting practices.</p><p>This is just one of the examples that proves that we are in a desperate need of sustainable development.
 Sustainable consumption and production aims at “doing more and better with less,” increasing net welfare gains from economic activities by reducing resource use, degradation, and pollution, while increasing the quality of life. Sustainable development will be achieved not only by growing our economies, but minimising waste in the process of doing so. Growth that contaminates the environment sets development back.</p><p>How can we address this?</p><p>Sustainable consumption and production is about promoting resource and energy efficiency, sustainable infrastructure, and providing access to basic services, green and decent jobs and a better quality of life for all. Its implementation helps to achieve overall development plans, reduce future economic, environmental and social costs, strengthen economic competitiveness and reduce poverty.</p><p>"So let's build the future with sustainable development"</p>
-
-
+            
+            
             </card>
             </section>
             <section id="themedetails">
-
+            
             <card id="fourth">
                 <h3>Education And Healthcare</h3>
-
+                
 <p>Education and healthcare are the backbone of any developing country.</p><p>Considering the fact that our country has one of the highest rate of infant mortality and the fact that still a large part of the population is still not educated enough raises many questions.</p><p>Why is it so?</p><p>Can this be changed?</p><p>How can this be changed?</p><p>What are the challenges?..... And so on.</p><p>And as engineers who's better than us in solving critical problems.</p><p>Engineers might not be the first guy that comes to a person's mind when you talk about healthcare, but we've been developing medicines and surgical equipment for medical purposes since the beginning.</p><p>It's time to up the game and come up with innovative ideas to improve the healthcare and education system of the country.</p><p>Because remember if we can't, no one can.</p>
             </card>
-
+            
             </section>
             <section id="themedetails">
-
+            
             <card id="fifth">
                 <h3>Self Sustained Communities</h3>
 
                     <p>Wouldn't it be nice if we could all live in a society where we were self sufficient for everything we need in our day to day lives.</p><p>Is it possible?</p><p>Can we engineer our society in a way that it is self fulfilling in every way?</p><p>HACK INSPIRATIONS:-</p><p>1. Smart and dynamic street lighting system.</p><p>2. Air quality monitoring device.</p><p>3. Smart plugs.</p><p>And many more.</p><p>There are thousands of ideas lying around us to lead to a completely self sustainable communities.</p><p>All we need to do is just look from a different frame of reference and think outside the box.</p>
             </card>
-
+        
         </section>
-
+         
         <!--FOOTER-->
         <section id="Reach" class="footer">
             <h2>Reach Us</h2>
@@ -136,30 +136,30 @@ Sustainable consumption and production aims at “doing more and better with les
                         <strong>Sid - +91 85217 90637</strong><br>
                         <strong><a href="mailto:cmritsocialhackathon@gmail.com" target="_blank">cmritsocialhackathon@gmail.com</a></strong>
                     </p>
-
+                    
                 </div>
                 <div col="2/6">
-
+                
                 <div>
                     <a href="https://goo.gl/maps/Ykx3A4qQHEq">
                     <img height="300" width="300" src="./img/map.png">
                     </a>
                 </div>
-
+                
                 </div>
                 <div col="1/3">
                     <grid>
-                        <div fx col="1/3">
+                        <div fx col="1/3">   
                             <a href="" target="_blank"><img src="./img/ig.png" class="footerimg"></a>
                         </div>
-                        <div fx col="1/3">
+                        <div fx col="1/3">   
                             <a href="https://www.facebook.com/SocialHackathonCMRIT" target="_blank"><img src="./img/foot2.png" class="footerimg"></a>
                         </div>
                     </grid>
                 </div>
             </grid>
         </section>
-
+        
         <section class="credits">
             <div>This website was designed by <a class="l1" href="https://github.com/CrypticSocket" target="_blank">Saket Vaibhav</a> and <a class="l2" href="https://github.com/Greymtr" target="_blank">Gautham Nagendran</a></div>
         </section>
@@ -171,37 +171,32 @@ Sustainable consumption and production aims at “doing more and better with les
                 padding-top: 0px;
                 color:#fff;
             }
-
+               
             .banner{
                 background-color: #1c1c1c;
-                padding-top: 0vh;
+                padding-top: 0vh; 
                 padding-bottom: 0vh;
                 text-align: center;
                 color: white;
             }
-
+            
             .logo{
                 height:40rem;
                 width: auto;
                 filter:hue-rotate(-18deg);
-                z-index: 10;
             }
-
+            
             #regbut{
                 background-color: #6a45a1;
-                font-size:2rem;
+                font-size:2rem; 
                 border: 0px;
                 font-family: 'OfficeCodeProDRegular';
                 color: #222;
-                z-index: 10;
             }
-
+            
             #regbut:hover{
                 background-color: #65C;
             }
-<<<<<<< HEAD
-
-=======
             
             #themeheading{
             
@@ -210,7 +205,6 @@ Sustainable consumption and production aims at “doing more and better with les
             
             }
             
->>>>>>> 0b58da42c1b0df847690217b51b4cc40318c95fb
 /*
             .img_bg{
                 position: absolute;
@@ -220,60 +214,52 @@ Sustainable consumption and production aims at “doing more and better with les
                 height: 100vh;
                 filter: grayscale(100%) blur(3px) brightness(60%);
             }
-
+            
             nav ul li a{
-
+            
                 font-size:1.25em;
-
+                
             }
-
+            
             nav ul li a:hover{
-
+                
                 color:#6f6 !important;
                 border-color:#6f6 !important;
-
+            
             }
-
+            
             nav ul{
-
+            
                 text-align:center !important;
-                background-color:#111 !important;
-
+                background-color:#111 !important; 
+            
             }
 */
-
-            #nokey{
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 99vw;
-                z-index: 5;
-            }
 
             #About{
                 padding-bottom: 5vh; padding-top:5vh; background-color:#1e1e1e
             }
-
+            
             #themedetails card{
-
+            
                 background-color:#111 !important;
                 color:#eee;
                 text-align:center;
                 margin:1rem;
                 padding:3rem;
                 font-size:1.5rem;
-
+            
             }
-
+            
             #themedetails card h3 {
                 padding-bottom:1em;
                 padding-top:1em;
                 font-weight:bold;
             }
-
-
+            
+            
             #gridid div{
-
+            
                 background-color:#111;
                 color:#ddd;
                 margin-bottom:2em ;
@@ -281,7 +267,7 @@ Sustainable consumption and production aims at “doing more and better with les
                 margin-left:1em;
                 border-bottom:3px solid #6a45a1;
             }
-
+            
             #gridid div:hover{
                 color: #6a45a1;
             }
@@ -300,21 +286,21 @@ Sustainable consumption and production aims at “doing more and better with les
                 width: 5rem;
                 height: 5rem;
             }
-
+            
             .footer grid{
                 margin:0;
             }
-
+                
             .l1{
-
+            
                 color:#4d8;
-
+                
             }
-
+            
             .l2{
-
+            
                 color:#4d8;
-
+                
             }
 
             .credits{
@@ -325,23 +311,23 @@ Sustainable consumption and production aims at “doing more and better with les
             }
 
             .credits div{
-                margin:auto;
-                padding-top:1.5em;
+                margin:auto; 
+                padding-top:1.5em; 
                 font-size:1em;
             }
-
+            
             .credits a, .credits a:visited{
-
+            
                 text-decoration:none;
-
-            }
-
+            
+            }   
+            
             .credits a:hover, .credits a:focus{
-
+            
                 text-decoration:underline;
-
-            }
-
+            
+            }        
+            
 /*            FAQ CSS
             #wrap-collabsible {
                 margin-bottom: 0;
@@ -371,7 +357,7 @@ Sustainable consumption and production aims at “doing more and better with les
 
             .lbl-toggle:hover {
               color: #4D6;
-
+                
             }
 
             .lbl-toggle::before {
@@ -416,7 +402,7 @@ Sustainable consumption and production aims at “doing more and better with les
             FAQ CSS ENDS*/
 
             @media (max-width: 50rem)
-            {
+            {   
                 body{}
                 .banner{}
                 .logo{
@@ -446,287 +432,13 @@ Sustainable consumption and production aims at “doing more and better with les
                 .credits div{
                     font-size: 1rem;
                 }
-
+                
             }
-
+            
             ::-webkit-scrollbar {
               display: none;
             }
-
+            
         </style>
-        <script>
-        var canvas = document.getElementById('nokey'),
-   can_w = parseInt(canvas.getAttribute('width')),
-   can_h = parseInt(canvas.getAttribute('height')),
-   ctx = canvas.getContext('2d');
-
-// console.log(typeof can_w);
-
-var ball = {
-      x: 0,
-      y: 0,
-      vx: 0,
-      vy: 0,
-      r: 0,
-      alpha: 1,
-      phase: 0
-   },
-   ball_color = {
-       r: 255,
-       g: 255,
-       b: 255
-   },
-   R = 2,
-   balls = [],
-   alpha_f = 0.03,
-   alpha_phase = 0,
-
-// Line
-   link_line_width = 0.8,
-   dis_limit = 200,
-   add_mouse_point = true,
-   mouse_in = false,
-   mouse_ball = {
-      x: 0,
-      y: 0,
-      vx: 0,
-      vy: 0,
-      r: 0,
-      type: 'mouse'
-   };
-
-// Random speed
-function getRandomSpeed(pos){
-    var  min = -1,
-       max = 1;
-    switch(pos){
-        case 'top':
-            return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
-            break;
-        case 'right':
-            return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
-            break;
-        case 'bottom':
-            return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
-            break;
-        case 'left':
-            return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
-            break;
-        default:
-            return;
-            break;
-    }
-}
-function randomArrayItem(arr){
-    return arr[Math.floor(Math.random() * arr.length)];
-}
-function randomNumFrom(min, max){
-    return Math.random()*(max - min) + min;
-}
-console.log(randomNumFrom(0, 20));
-// Random Ball
-function getRandomBall(){
-    var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
-    switch(pos){
-        case 'top':
-            return {
-                x: randomSidePos(can_w),
-                y: -R,
-                vx: getRandomSpeed('top')[0],
-                vy: getRandomSpeed('top')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 20)
-            }
-            break;
-        case 'right':
-            return {
-                x: can_w + R,
-                y: randomSidePos(can_h),
-                vx: getRandomSpeed('right')[0],
-                vy: getRandomSpeed('right')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 20)
-            }
-            break;
-        case 'bottom':
-            return {
-                x: randomSidePos(can_w),
-                y: can_h + R,
-                vx: getRandomSpeed('bottom')[0],
-                vy: getRandomSpeed('bottom')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 20)
-            }
-            break;
-        case 'left':
-            return {
-                x: -R,
-                y: randomSidePos(can_h),
-                vx: getRandomSpeed('left')[0],
-                vy: getRandomSpeed('left')[1],
-                r: R,
-                alpha: 1,
-                phase: randomNumFrom(0, 20)
-            }
-            break;
-    }
-}
-function randomSidePos(length){
-    return Math.ceil(Math.random() * length);
-}
-
-// Draw Ball
-function renderBalls(){
-    Array.prototype.forEach.call(balls, function(b){
-       if(!b.hasOwnProperty('type')){
-           ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
-           ctx.beginPath();
-           ctx.arc(b.x, b.y, R, 0, Math.PI*2, true);
-           ctx.closePath();
-           ctx.fill();
-       }
-    });
-}
-
-// Update balls
-function updateBalls(){
-    var new_balls = [];
-    Array.prototype.forEach.call(balls, function(b){
-        b.x += b.vx;
-        b.y += b.vy;
-
-        if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)){
-           new_balls.push(b);
-        }
-
-        // alpha change
-        b.phase += alpha_f;
-        b.alpha = Math.abs(Math.cos(b.phase));
-        // console.log(b.alpha);
-    });
-
-    balls = new_balls.slice(0);
-}
-
-// loop alpha
-function loopAlphaInf(){
-
-}
-
-// Draw lines
-function renderLines(){
-    var fraction, alpha;
-    for (var i = 0; i < balls.length; i++) {
-        for (var j = i + 1; j < balls.length; j++) {
-
-           fraction = getDisOf(balls[i], balls[j]) / dis_limit;
-
-           if(fraction < 1){
-               alpha = (1 - fraction).toString();
-
-               ctx.strokeStyle = 'rgba(150,150,150,'+alpha+')';
-               ctx.lineWidth = link_line_width;
-
-               ctx.beginPath();
-               ctx.moveTo(balls[i].x, balls[i].y);
-               ctx.lineTo(balls[j].x, balls[j].y);
-               ctx.stroke();
-               ctx.closePath();
-           }
-        }
-    }
-}
-
-// calculate distance between two points
-function getDisOf(b1, b2){
-    var  delta_x = Math.abs(b1.x - b2.x),
-       delta_y = Math.abs(b1.y - b2.y);
-
-    return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
-}
-
-// add balls if there a little balls
-function addBallIfy(){
-    if(balls.length < 50){
-        balls.push(getRandomBall());
-    }
-}
-
-// Render
-function render(){
-    ctx.clearRect(0, 0, can_w, can_h);
-
-    renderBalls();
-
-    renderLines();
-
-    updateBalls();
-
-    addBallIfy();
-
-    window.requestAnimationFrame(render);
-}
-
-// Init Balls
-function initBalls(num){
-    for(var i = 1; i <= num; i++){
-        balls.push({
-            x: randomSidePos(can_w),
-            y: randomSidePos(can_h),
-            vx: getRandomSpeed('top')[0],
-            vy: getRandomSpeed('top')[1],
-            r: R,
-            alpha: 1,
-            phase: randomNumFrom(0, 10)
-        });
-    }
-}
-// Init Canvas
-function initCanvas(){
-    canvas.setAttribute('width', window.innerWidth);
-    canvas.setAttribute('height', window.innerHeight);
-
-    can_w = parseInt(canvas.getAttribute('width'));
-    can_h = parseInt(canvas.getAttribute('height'));
-}
-window.addEventListener('resize', function(e){
-    console.log('Window Resize...');
-    initCanvas();
-});
-
-function goMovie(){
-    initCanvas();
-    initBalls(30);
-    window.requestAnimationFrame(render);
-}
-goMovie();
-
-// Mouse effect
-canvas.addEventListener('mouseenter', function(){
-    console.log('mouseenter');
-    mouse_in = true;
-    balls.push(mouse_ball);
-});
-canvas.addEventListener('mouseleave', function(){
-    console.log('mouseleave');
-    mouse_in = false;
-    var new_balls = [];
-    Array.prototype.forEach.call(balls, function(b){
-        if(!b.hasOwnProperty('type')){
-            new_balls.push(b);
-        }
-    });
-    balls = new_balls.slice(0);
-});
-canvas.addEventListener('mousemove', function(e){
-    var e = e || window.event;
-    mouse_ball.x = e.pageX;
-    mouse_ball.y = e.pageY;
-    // console.log(mouse_ball);
-});
-        </script>
     </body>
 </html>
