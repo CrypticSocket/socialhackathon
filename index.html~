@@ -198,13 +198,6 @@ Sustainable consumption and production aims at “doing more and better with les
                 background-color: #65C;
             }
             
-            #themeheading{
-            
-            padding-top:4em;
-            padding-bottom:2em;
-            
-            }
-            
 /*
             .img_bg{
                 position: absolute;
