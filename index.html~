@@ -161,7 +161,7 @@ Sustainable consumption and production aims at “doing more and better with les
 								
 							<div col="2/3" id="wrap-collabsible">
 									<input id="collapsible3" class="toggle" type="checkbox">
-									<label for="collapsible3" class="lbl-toggle">What is the methodology of selection.</label>
+									<label for="collapsible3" class="lbl-toggle">What is the methodology of selection?</label>
 										<div class="collapsible-content">
 										<div class="content-inner">
 											<p>
@@ -175,11 +175,11 @@ Sustainable consumption and production aims at “doing more and better with les
 							
 							<div col="2/3" id="wrap-collabsible">
 									<input id="collapsible4" class="toggle" type="checkbox">
-									<label for="collapsible4" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent?</label>
+									<label for="collapsible4" class="lbl-toggle">What is the Registration fee for phase 2 ( after the idea gets selected)?</label>
 										<div class="collapsible-content">
 										<div class="content-inner">
 											<p>
-												That's the "Number of Teams" being paid for.
+												The Registration fee is ₹500 per team.
 												<br>
 											</p>
 											<br>
@@ -190,11 +190,11 @@ Sustainable consumption and production aims at “doing more and better with les
                             							
                             <div col="2/3" id="wrap-collabsible">
                             <input id="collapsible5" class="toggle" type="checkbox">
-                            <label for="collapsible5" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent?</label>
+                            <label for="collapsible5" class="lbl-toggle">Will the software and hardware be provided?</label>
                             <div class="collapsible-content">
                             <div class="content-inner">
                             <p>
-                            That's the "Number of Teams" being paid for.
+                            No.The teams need to take care of their own software and hardware requirements.
                             <br>
                             </p>
                             <br>
@@ -206,11 +206,11 @@ Sustainable consumption and production aims at “doing more and better with les
                             
                                                         <div col="2/3" id="wrap-collabsible">
                             <input id="collapsible6" class="toggle" type="checkbox">
-                            <label for="collapsible6" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent?</label>
+                            <label for="collapsible6" class="lbl-toggle">Will the accomodation be provided??</label>
                             <div class="collapsible-content">
                             <div class="content-inner">
                             <p>
-                            That's the "Number of Teams" being paid for.
+                            No.It's a 24 hrs event. But an area for taking some rest will be alloted where your teammates can take a break for a while.
                             <br>
                             </p>
                             <br>
@@ -218,13 +218,15 @@ Sustainable consumption and production aims at “doing more and better with les
                             </div>
                             </div>	
 
+
+
 <div col="2/3" id="wrap-collabsible">
 <input id="collapsible7" class="toggle" type="checkbox">
-<label for="collapsible7" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent?</label>
+<label for="collapsible7" class="lbl-toggle">Will food be provided?</label>
 <div class="collapsible-content">
 <div class="content-inner">
 <p>
-That's the "Number of Teams" being paid for.
+Yes. Food and refreshments will be provided.
 <br>
 </p>
 <br>
@@ -234,11 +236,11 @@ That's the "Number of Teams" being paid for.
 
 <div col="2/3" id="wrap-collabsible">
 <input id="collapsible7" class="toggle" type="checkbox">
-<label for="collapsible7" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent?</label>
+<label for="collapsible7" class="lbl-toggle">Will transportation be provided?</label>
 <div class="collapsible-content">
 <div class="content-inner">
 <p>
-That's the "Number of Teams" being paid for.
+No. Conveyance will not be provided.
 <br>
 </p>
 <br>
