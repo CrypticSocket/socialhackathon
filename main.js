@@ -271,7 +271,7 @@ canvas.addEventListener('mousemove', function(e){
     // console.log(mouse_ball);
 });
 
-var countDownDate = new Date("Apr 14, 2019 11:30:00").getTime();
+var countDownDate = new Date("Apr 14, 2019 23:30:00").getTime();
 
 //update the countDown every 1 section
 var countdownfunction = setInterval(
