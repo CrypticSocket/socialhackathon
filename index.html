@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="css/bare.min.css">
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/office-code-pro" type="text/css"/>
         
+        <!--  For Images      -->
+        <link rel="stylesheet" href="./slick/slick.css">
+        <link rel="stylesheet" href="./slick/slick-theme.css">
         
         <!--    ANALYTICS    -->
         
@@ -52,6 +55,128 @@
         </section>
         
 <!--        PUT THE PICTURES HERE -->
+        
+        <section txt="c">
+            <h2 id="themeheading">Photos</h2>
+            <grid>
+                <div txt="c">
+                    <div class="slide" id="photos">
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/1.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/2.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/3.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/4.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/5.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/6.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/7.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/8.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/9.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/10.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/11.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/12.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/13.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/14.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/15.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/16.jpeg">
+                            </card>
+                        </div>
+<!--
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/17.jpeg">
+                            </card>
+                        </div>
+-->
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/18.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/19.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/20.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/21.jpeg">
+                            </card>
+                        </div>
+                        <div>
+                            <card xx class="pic-title">
+                                <img src="./pics/22.jpeg">
+                            </card>
+                        </div>
+                    </div>
+                </div>
+            </grid>
+        </section>
         
         <section txt="c" id="themedetails">
             <h2 id="themeheading">Report</h2>
@@ -138,6 +263,11 @@
                 background-color:#1c1c1c;
                 padding-top: 0px;
                 color:#fff;
+            }
+            
+            card img{
+                height: 20em;
+                width: auto;
             }
             
             #winners{
@@ -495,6 +625,21 @@
             }
 
         </style>
+        
+        <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./slick/slick.min.js"></script>
         <script rel="stylesheet" type="text/javascript" src="./main.js"></script>
+        <script>
+            $('.slide').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                adaptiveHeight: true,
+                autoplaySpeed: 1000,
+            });
+            $('.slide').on('touchstart', e => {
+                $('.slide').slick('slickPlay');
+            });
+        </script>
     </body>
 </html>
